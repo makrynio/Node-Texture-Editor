@@ -1,0 +1,21 @@
+{
+  "material_properties": {
+    "albedo": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929
+    ],
+    "metallic": 0.0,
+    "roughness": 0.5,
+    "ao": 1.0,
+    "displacement_intensity": 10.0
+  },
+  "texture_channels": [
+    "height",
+    "normal",
+    "diffuse",
+    "metallic",
+    "roughness"
+  ],
+  "last_update": "/Users/thomasmakryniotis/Library/CloudStorage/Dropbox/WORK/ARCHIVED PROJECTS/Development/Texture Editor/CPP/CPP_1"
+}

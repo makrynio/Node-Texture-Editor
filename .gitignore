@@ -1,0 +1,113 @@
+# Build directories
+build/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Compiled Object files
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Static libraries
+*.a
+*.lib
+
+# Executables
+ImGuiExample
+Triangle
+*_test
+test_*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+temp_*
+debug_*.txt
+*.log
+
+# Configuration files (user-specific)
+imgui.ini
+quadriflow_imgui.ini
+nodeeditor.json
+quadriflow_nodeeditor.json
+window_config.txt
+
+# Output files
+*.obj
+test_output.obj
+temp_quadriflow_output.obj
+debug_output.txt
+
+# External dependencies (if not using submodules)
+external/embree/
+external/embree_install/
+external/glad/
+external/glfw/
+external/imgui/
+external/imgui-node-editor/
+external/manifold/
+
+# Archive files
+*.tar.bz2
+*.zip
+*.tar.gz
+
+# Backup files
+*.backup
+*.bak
+*.orig
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux specific
+*~
+
+# Test and debug files
+debug_remesh.txt
+test_*.cpp
+test_*.md
+*_test.cpp
+
+# Generated mesh files
+mesh_ops/*.obj
+
+# Library files in root (should be in build/)
+libglad.a
+libimgui.a
+libimgui_node_editor.a
+libstb_image.a
+libtexture_manager.a
+
+# Makefile test
+Makefile_test
+
+# Temporary source files
+temp_gui_middle.cpp
+temp_middle.cpp
+

@@ -1,0 +1,9 @@
+[submodule "external/imgui"]
+	path = external/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "external/imgui-node-editor"]
+	path = external/imgui-node-editor
+	url = https://github.com/thedmd/imgui-node-editor.git
+[submodule "external/manifold"]
+	path = external/manifold
+	url = https://github.com/hjwdzh/Manifold.git
